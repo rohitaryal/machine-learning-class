@@ -26,6 +26,7 @@ for i in range(1,20):
 
 plot.figure(figsize=(10,6))
 plot.plot(range(1,20), wcss, marker='o', linestyle='--')
+plot.title("Albo Graph", fontsize=20)
 plot.xticks(range(1,20))
 plot.grid(True)
 plot.xlabel("Number of cluster", fontsize=15)
