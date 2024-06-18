@@ -458,4 +458,4 @@ Now you can calculate distance between these 2 centroids using formula $Z^2=X^2-
 # Class 9 + 10
 
 
-1. Calculate mean distance to points in same cluster
+1. Calculate mean distance to points in same cluster and for all cluster.
