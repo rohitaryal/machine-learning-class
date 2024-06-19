@@ -504,3 +504,22 @@ This score ranges from -1 to 1 and can have the following meanings:
 - `1` - Means clusters are well apart from each pther and clearly distinguished
 - `0` - Means are indifferent or distance between clusters is not significant
 - `-1` - Means clusters are assigned the wrong way
+
+### Structured Data:
+
+Has rows and columns. Opposite Example: Text, image, etc.
+There are some ways to convert unstructured data to structured data which is described in this stage:
+
+1. Text preprocessing: Remove special tags (HTML tags, symbols, etc)
+2. Uppercase/Lowercase the text
+3. Tokenize the text: Example "You are stupd" becomes ['you', 'are', 'stupid']
+4. Remove stopwords like a, an, the, ect
+5. Lemmetization or Scaling: Means convert your words in root word. For example
+   - Running -> Run
+   - Walking -> Walk
+   - Grapes -> Grape
+6. Convert text into numbers (vectors)
+   - TF_IDF
+   - BOW
+   - Word2Vec
+   - Glove
