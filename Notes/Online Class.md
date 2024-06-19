@@ -497,5 +497,10 @@ Now you can calculate distance between these 2 centroids using formula $Z^2=X^2-
 
 # Class 9 + 10
 
-1. Calculate mean distance to points in same cluster and for all cluster.
-2.
+### `silhoutte_score`
+
+This score ranges from -1 to 1 and can have the following meanings:
+
+- `1` - Means clusters are well apart from each pther and clearly distinguished
+- `0` - Means are indifferent or distance between clusters is not significant
+- `-1` - Means clusters are assigned the wrong way
