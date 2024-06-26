@@ -518,6 +518,7 @@ There are some ways to convert unstructured data to structured data which is des
    - Running -> Run
    - Walking -> Walk
    - Grapes -> Grape
+   - Went != -> Go (Remember this)
 6. Convert text into numbers (vectors)
    - TF_IDF
    - BOW
