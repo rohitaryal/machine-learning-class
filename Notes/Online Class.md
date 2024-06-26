@@ -514,7 +514,7 @@ There are some ways to convert unstructured data to structured data which is des
 2. Uppercase/Lowercase the text
 3. Tokenize the text: Example "You are stupd" becomes ['you', 'are', 'stupid']
 4. Remove stopwords like a, an, the, ect
-5. Lemmetization or Scaling: Means convert your words in root word. For example
+5. Lemmetization or Stemming: Means convert your words in root word. For example
    - Running -> Run
    - Walking -> Walk
    - Grapes -> Grape
