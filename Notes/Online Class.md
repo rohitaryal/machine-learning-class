@@ -524,3 +524,22 @@ There are some ways to convert unstructured data to structured data which is des
    - BOW
    - Word2Vec
    - Glove
+
+# Class 11
+
+1. BOW (Bag of Words)
+2. TF x IDF (Term Frequency x Invere Document Frequency)
+   Formula for this term is,
+   $$
+     TF=\frac{Total\;That\;Words\;In\;Document}{Total\;words\;in\;document}
+   $$
+   And for IDF
+   $$
+     IDF=\log\frac{Total\;No.\;Of\;Document}{Words\;in\;how\;many\;document}
+   $$
+
+   Now calculate `TF x IDF`
+
+# Class 12
+
+ht = f(h{t-1})
